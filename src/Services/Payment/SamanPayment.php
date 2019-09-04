@@ -20,8 +20,8 @@ class SamanPayment
     const REQUEST_PAYMENT_URL = 'https://sep.shaparak.ir/payment.aspx';
     const REQUEST_REVERSE_URL = 'https://sep.shaparak.ir/payments/referencepayment.asmx?WSDL';
     const REQUEST_VERIFY_URL = 'https://sep.shaparak.ir/payments/referencepayment.asmx?WSDL';
-    const MID = 11475043;
-    const MID_PASS = "02wMefd6v4rH";
+    const MID =1234;
+    const MID_PASS = "1234";
     const STATE_NEW = 1;
     const STATE_TOKEN = 2;
     const STATE_TOKEN_FAILED = 3;
