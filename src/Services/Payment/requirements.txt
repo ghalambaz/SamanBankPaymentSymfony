@@ -1,0 +1,2 @@
+
+"ramsey/uuid-doctrine": "^1.5"

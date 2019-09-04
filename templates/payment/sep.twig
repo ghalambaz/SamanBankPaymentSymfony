@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<form id="sepForm" action="{{ form_action }}" method="post">
+    <input type="hidden" name="Token" value="{{ token }}">
+    <input type="hidden" name="RedirectURL" value="{{ redirect_url }}">
+</form>
+<script>
+    document.getElementById("sepForm").submit();
+
+</script>
+</body>
