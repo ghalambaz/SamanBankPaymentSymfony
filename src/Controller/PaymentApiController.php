@@ -47,7 +47,7 @@ class PaymentApiController extends Controller
         return $this->render('payment/sep.twig', [
             'form_action' => $samanPayment::REQUEST_PAYMENT_URL,
             'token'=>$token,
-            'redirect_url'=> 'http://kidstaxi.opendev.ir/PaymentApi/bankPaymentResponse'
+            'redirect_url'=> 'http://mydomain.ir/PaymentApi/bankPaymentResponse'
         ]);
 
     }
